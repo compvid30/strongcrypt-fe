@@ -1,0 +1,179 @@
+object frmRnd: TfrmRnd
+  Left = 915
+  Height = 314
+  Top = 99
+  Width = 385
+  BorderStyle = bsDialog
+  Caption = 'Password Generator'
+  ClientHeight = 314
+  ClientWidth = 385
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.2.4.0'
+  object gbOptions: TGroupBox
+    Left = 8
+    Height = 120
+    Top = 8
+    Width = 368
+    Caption = 'Options'
+    ClientHeight = 102
+    ClientWidth = 364
+    TabOrder = 0
+    object chkUpper: TCheckBox
+      Left = 14
+      Height = 19
+      Top = 9
+      Width = 111
+      Caption = 'Upper Case (A-Z)'
+      Checked = True
+      State = cbChecked
+      TabOrder = 0
+    end
+    object chkLower: TCheckBox
+      Left = 14
+      Height = 19
+      Top = 40
+      Width = 107
+      Caption = 'Lower Case (a-z)'
+      Checked = True
+      State = cbChecked
+      TabOrder = 1
+    end
+    object chkDigits: TCheckBox
+      Left = 14
+      Height = 19
+      Top = 72
+      Width = 78
+      Caption = 'Digits (0-9)'
+      Checked = True
+      State = cbChecked
+      TabOrder = 2
+    end
+    object chkSpecial: TCheckBox
+      Left = 190
+      Height = 19
+      Top = 8
+      Width = 114
+      Caption = 'Special (!, $, %, ...)'
+      TabOrder = 3
+    end
+    object chkBrackets: TCheckBox
+      Left = 190
+      Height = 19
+      Top = 44
+      Width = 118
+      Caption = 'Brackets ({, [, <, ...)'
+      TabOrder = 4
+    end
+    object chkSpace: TCheckBox
+      Left = 190
+      Height = 19
+      Top = 72
+      Width = 68
+      Caption = 'Space(   )'
+      TabOrder = 5
+    end
+  end
+  object edtPasswd: TEdit
+    Left = 8
+    Height = 23
+    Top = 192
+    Width = 280
+    OnChange = edtPasswdChange
+    TabOrder = 1
+  end
+  object speLength: TSpinEdit
+    Left = 200
+    Height = 23
+    Top = 136
+    Width = 56
+    MaxValue = 512
+    TabOrder = 2
+    Value = 22
+  end
+  object lblLength: TLabel
+    Left = 8
+    Height = 15
+    Top = 138
+    Width = 93
+    Caption = 'Password Length:'
+    ParentColor = False
+  end
+  object Bevel1: TBevel
+    Left = 8
+    Height = 18
+    Top = 168
+    Width = 368
+    Shape = bsTopLine
+  end
+  object btnGenerate: TButton
+    Left = 301
+    Height = 25
+    Top = 190
+    Width = 75
+    Caption = 'Generate'
+    OnClick = btnGenerateClick
+    TabOrder = 3
+  end
+  object btnCancel: TButton
+    Left = 301
+    Height = 25
+    Top = 280
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 4
+  end
+  object btnOK: TButton
+    Left = 213
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = btnOKClick
+    TabOrder = 5
+  end
+  object prbBits: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 240
+    Width = 280
+    Smooth = True
+    TabOrder = 6
+  end
+  object lblBits: TLabel
+    Left = 120
+    Height = 15
+    Top = 224
+    Width = 28
+    Caption = '0 Bits'
+    ParentColor = False
+  end
+  object lblQuality: TLabel
+    Left = 8
+    Height = 15
+    Top = 224
+    Width = 94
+    Caption = 'Password Quality:'
+    ParentColor = False
+  end
+  object Bevel2: TBevel
+    Left = 8
+    Height = 10
+    Top = 272
+    Width = 368
+    Shape = bsTopLine
+  end
+  object btnClipboard: TButton
+    Left = 8
+    Height = 25
+    Top = 280
+    Width = 192
+    Caption = 'Copy to Clipboard'
+    OnClick = btnClipboardClick
+    TabOrder = 7
+  end
+end

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <Title Value="strongcryptfe64"/>
+      <UseAppBundle Value="False"/>
+      <UseXPManifest Value="True"/>
+      <ActiveWindowIndexAtStart Value="1"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="strongcryptfe64.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="strongcryptfe64"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="13"/>
+        <UsageCount Value="222"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uContextMenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uContextMenu"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="274"/>
+        <CursorPos X="63" Y="296"/>
+        <UsageCount Value="220"/>
+        <Bookmarks Count="1">
+          <Item0 X="35" Y="154" ID="0"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="282"/>
+        <CursorPos X="12" Y="298"/>
+        <UsageCount Value="101"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win64\windows.pp"/>
+        <UnitName Value="windows"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="113"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="67" Column="27" TopLine="52"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="315" Column="29" TopLine="310"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="315" Column="39" TopLine="304"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="340" Column="12" TopLine="327"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="338" Column="7" TopLine="318"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="317" Column="44" TopLine="297"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="294" Column="29" TopLine="294"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="268" Column="10" TopLine="264"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="327" Column="60" TopLine="307"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="322" Column="11" TopLine="302"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="379" Column="7" TopLine="1"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="294" Column="36" TopLine="273"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="343" Column="1" TopLine="341"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="13" Column="13" TopLine="1"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="145" Column="81" TopLine="124"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="46" Column="14" TopLine="34"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="139" Column="56" TopLine="133"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="146" Column="14" TopLine="104"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="31" Column="3" TopLine="26"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="155" Column="43" TopLine="140"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="127" Column="1" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="332" Column="57" TopLine="303"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="312" Column="18" TopLine="296"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="332" Column="34" TopLine="317"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="333" Column="35" TopLine="316"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="316" Column="96" TopLine="316"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="311" Column="70" TopLine="295"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="336" Column="66" TopLine="320"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="368" Column="59" TopLine="351"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Optimizations>
+        <OptimizationLevel Value="2"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+        <ExecutableType Value="Library"/>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

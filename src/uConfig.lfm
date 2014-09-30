@@ -1,0 +1,224 @@
+object frmConfig: TfrmConfig
+  Left = 1475
+  Height = 401
+  Top = 88
+  Width = 406
+  BorderStyle = bsDialog
+  Caption = 'Configuration'
+  ClientHeight = 401
+  ClientWidth = 406
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.2.4.0'
+  object pcConfig: TPageControl
+    Left = 8
+    Height = 352
+    Top = 8
+    Width = 392
+    ActivePage = tab1
+    TabIndex = 0
+    TabOrder = 0
+    object tab1: TTabSheet
+      Caption = 'Gerneral'
+      ClientHeight = 324
+      ClientWidth = 384
+      object gbAlgo: TGroupBox
+        Left = 4
+        Height = 80
+        Top = 8
+        Width = 376
+        Caption = 'Standard Encryption Algorithem'
+        ClientHeight = 62
+        ClientWidth = 372
+        TabOrder = 0
+        object cboAlgo: TComboBox
+          Left = 14
+          Height = 23
+          Top = 24
+          Width = 344
+          ItemHeight = 15
+          ItemIndex = 2
+          Items.Strings = (
+            'AES - 256 Bits'
+            'Twofish - 256 Bits'
+            'Serpend - 256 Bits'
+          )
+          Style = csDropDownList
+          TabOrder = 0
+          Text = 'Serpend - 256 Bits'
+        end
+        object lblAlgo: TLabel
+          Left = 14
+          Height = 15
+          Top = 8
+          Width = 57
+          Caption = 'Algorithm:'
+          ParentColor = False
+        end
+      end
+      object gbKdf: TGroupBox
+        Left = 4
+        Height = 81
+        Top = 96
+        Width = 376
+        Caption = 'Key derivation function'
+        ClientHeight = 63
+        ClientWidth = 372
+        TabOrder = 1
+        object lblRounds: TLabel
+          Left = 14
+          Height = 15
+          Top = 8
+          Width = 52
+          Caption = 'Iterations:'
+          ParentColor = False
+        end
+        object edtRounds: TSpinEdit
+          Left = 14
+          Height = 23
+          Top = 24
+          Width = 344
+          MaxValue = 100000000
+          MinValue = 1000
+          TabOrder = 0
+          Value = 20000
+        end
+      end
+      object gbCompression: TGroupBox
+        Left = 4
+        Height = 112
+        Top = 184
+        Width = 376
+        Caption = 'Compression'
+        ClientHeight = 94
+        ClientWidth = 372
+        TabOrder = 2
+        object chkCompression: TCheckBox
+          Left = 14
+          Height = 19
+          Top = 8
+          Width = 112
+          Caption = 'Use Compression'
+          Checked = True
+          State = cbChecked
+          TabOrder = 0
+        end
+        object lblLevel: TLabel
+          Left = 14
+          Height = 15
+          Top = 40
+          Width = 30
+          Caption = 'Level:'
+          ParentColor = False
+        end
+        object cboLevel: TComboBox
+          Left = 14
+          Height = 23
+          Top = 56
+          Width = 344
+          ItemHeight = 15
+          ItemIndex = 1
+          Items.Strings = (
+            'Maximum'
+            'Normal'
+            'Fast'
+          )
+          Style = csDropDownList
+          TabOrder = 1
+          Text = 'Normal'
+        end
+      end
+    end
+    object tab2: TTabSheet
+      Caption = 'Miscellaneous'
+      ClientHeight = 323
+      ClientWidth = 388
+      object gblanguage: TGroupBox
+        Left = 4
+        Height = 80
+        Top = 8
+        Width = 377
+        Caption = 'Choose language'
+        ClientHeight = 62
+        ClientWidth = 373
+        TabOrder = 0
+        object cbolanguage: TComboBox
+          Left = 14
+          Height = 23
+          Top = 24
+          Width = 352
+          ItemHeight = 15
+          Style = csDropDownList
+          TabOrder = 0
+        end
+        object lbllanguage: TLabel
+          Left = 14
+          Height = 15
+          Top = 7
+          Width = 55
+          Caption = 'Language:'
+          ParentColor = False
+        end
+      end
+      object gbWipe: TGroupBox
+        Left = 4
+        Height = 80
+        Top = 96
+        Width = 377
+        Caption = 'Wipe'
+        ClientHeight = 62
+        ClientWidth = 373
+        TabOrder = 1
+        object cboWipe: TComboBox
+          Left = 14
+          Height = 23
+          Top = 24
+          Width = 352
+          ItemHeight = 15
+          ItemIndex = 0
+          Items.Strings = (
+            'Zeros ( 1 Pass )'
+            'PRNG ( 1 Pass )'
+            'DoD 5220.22-M (E) ( 3 Passes )'
+            'German VSITR ( 7 Passes)'
+            'DoD 5220.22-M (ECE) ( 7 Passes )'
+          )
+          Style = csDropDownList
+          TabOrder = 0
+          Text = 'Zeros ( 1 Pass )'
+        end
+        object lblmethod: TLabel
+          Left = 14
+          Height = 15
+          Top = 8
+          Width = 45
+          Caption = 'Method:'
+          ParentColor = False
+        end
+      end
+    end
+  end
+  object btnOK: TButton
+    Left = 240
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = btnOKClick
+    TabOrder = 1
+  end
+  object btnCancel: TButton
+    Left = 320
+    Height = 25
+    Top = 368
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+end

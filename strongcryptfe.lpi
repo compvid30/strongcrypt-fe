@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="strongcryptfe"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="Debug" Default="True"/>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="bin\release\cryptx"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="lib\aes;lib\crc_hash;lib\prng;lib\serpent;lib\tf;lib\util;lib\zlibcx;src"/>
+            <UnitOutputDirectory Value="obj\release"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="2"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <IgnoredMessages idx5036="True" idx5037="True" idx5044="True" idx5057="True" idx5058="True"/>
+              <MsgFileName Value=""/>
+            </CompilerMessages>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="ExPan"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="strongcryptfe.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="strongcryptfe"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="src\AES256.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AES256"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="src\CryptxUtils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CryptxUtils"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src\Serpend256.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Serpend256"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="src\Twofish256.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Twofish256"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="src\uConfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmConfig"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uConfig"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="src\uDecrypt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDecrypt"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uDecrypt"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="src\uEncrypt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmEncrypt"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uEncrypt"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="src\uMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="src\uRnd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRnd"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uRnd"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="src\uAbout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAbout"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="src\Camellia256.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Camellia256"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="lib\util\dates.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="dates"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="lib\prng\tsc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TSC"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="lib\prng\isaac.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ISAAC"/>
+      </Unit14>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="bin\debug\strongcryptfe"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="lib\aes;lib\crc_hash;lib\prng;lib\serpent;lib\tf;lib\util;lib\zlibcx;src;lib\camellia;lib\sosemanuk"/>
+      <UnitOutputDirectory Value="obj\debug"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <IgnoredMessages idx5036="True" idx5037="True" idx5044="True" idx5057="True" idx5058="True"/>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

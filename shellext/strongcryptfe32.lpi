@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <Title Value="strongcryptfe32"/>
+      <UseAppBundle Value="False"/>
+      <UseXPManifest Value="True"/>
+      <ActiveWindowIndexAtStart Value="1"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="29">
+      <Unit0>
+        <Filename Value="strongcryptfe32.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="strongcryptfe32"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="13"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="C:\Users\cookie\Desktop\FPC\GetExeTypeShellExt.pas"/>
+        <UnitName Value="GetExeTypeShellExt"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="4"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\Users\cookie\Desktop\ContextM.pas"/>
+        <UnitName Value="ContextM"/>
+        <TopLine Value="51"/>
+        <CursorPos X="39" Y="66"/>
+        <UsageCount Value="16"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\Users\cookie\Desktop\ImageHlpU.pas"/>
+        <UnitName Value="ImagehlpU"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="4"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\Lazarus\fpc\2.2.4\source\packages\winunits-base\src\shlobj.pp"/>
+        <UnitName Value="shlobj"/>
+        <TopLine Value="1865"/>
+        <CursorPos X="122" Y="1889"/>
+        <UsageCount Value="4"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\Lazarus\fpc\2.2.4\source\packages\winunits-base\src\shellapi.pp"/>
+        <UnitName Value="ShellApi"/>
+        <TopLine Value="1261"/>
+        <CursorPos X="1" Y="1261"/>
+        <UsageCount Value="4"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\Lazarus_x64\fpc\2.2.4\source\rtl\win\wininc\redef.inc"/>
+        <TopLine Value="86"/>
+        <CursorPos X="3" Y="106"/>
+        <UsageCount Value="4"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\Lazarus_x64\fpc\2.2.4\source\rtl\win\wininc\errors.inc"/>
+        <TopLine Value="732"/>
+        <CursorPos X="6" Y="752"/>
+        <UsageCount Value="4"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\Lazarus\fpc\2.2.4\source\rtl\win\wininc\base.inc"/>
+        <TopLine Value="74"/>
+        <CursorPos X="1" Y="87"/>
+        <UsageCount Value="4"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\Lazarus\fpc\2.2.4\source\rtl\inc\systemh.inc"/>
+        <TopLine Value="200"/>
+        <CursorPos X="21" Y="213"/>
+        <UsageCount Value="4"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\Users\cookie\Desktop\GetExeInfoU.pas"/>
+        <UnitName Value="GetExeInfoU"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="6" Y="19"/>
+        <UsageCount Value="4"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="uContextMenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uContextMenu"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="290"/>
+        <CursorPos X="72" Y="311"/>
+        <UsageCount Value="81"/>
+        <Bookmarks Count="1">
+          <Item0 X="16" Y="159" ID="0"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\objpas\sysutils\intfh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="10" Y="42"/>
+        <UsageCount Value="4"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win\wininc\func.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="616"/>
+        <CursorPos X="10" Y="628"/>
+        <UsageCount Value="4"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win\wininc\ascdef.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="171"/>
+        <CursorPos X="10" Y="183"/>
+        <UsageCount Value="4"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\packages\fv\src\dialogs.pas"/>
+        <UnitName Value="Dialogs"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="4"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\Delphi\Ide\lazarus64\lcl\dialogs.pp"/>
+        <UnitName Value="dialogs"/>
+        <UsageCount Value="14"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="244"/>
+        <CursorPos X="3" Y="257"/>
+        <UsageCount Value="4"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win64\system.pp"/>
+        <UnitName Value="System"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="2" Y="43"/>
+        <UsageCount Value="4"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\packages\winunits-base\src\shellapi.pp"/>
+        <UnitName Value="ShellApi"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1063"/>
+        <CursorPos X="10" Y="1476"/>
+        <UsageCount Value="4"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="83"/>
+        <CursorPos X="10" Y="95"/>
+        <UsageCount Value="4"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\objpas\sysutils\finah.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="58" Y="21"/>
+        <UsageCount Value="4"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1007"/>
+        <CursorPos X="1" Y="1019"/>
+        <UsageCount Value="4"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win\wininc\redef.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="327"/>
+        <CursorPos X="10" Y="339"/>
+        <UsageCount Value="4"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win64\windows.pp"/>
+        <UnitName Value="windows"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="15" Y="46"/>
+        <UsageCount Value="4"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\packages\winunits-jedi\src\jwawinbase.pas"/>
+        <UnitName Value="JwaWinBase"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="19095"/>
+        <CursorPos X="1" Y="19118"/>
+        <UsageCount Value="4"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win\wininc\unifun.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="224"/>
+        <CursorPos X="10" Y="236"/>
+        <UsageCount Value="4"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\rtl\win\wininc\struct.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1520"/>
+        <CursorPos X="6" Y="1532"/>
+        <UsageCount Value="4"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\Delphi\Ide\lazarus64\fpc\2.6.3\source\packages\fcl-base\src\inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="4"/>
+      </Unit28>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="68" Column="24" TopLine="52"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="67" Column="27" TopLine="52"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uContextMenu.pas"/>
+        <Caret Line="348" Column="65" TopLine="321"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Optimizations>
+        <OptimizationLevel Value="2"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+        <ExecutableType Value="Library"/>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>
